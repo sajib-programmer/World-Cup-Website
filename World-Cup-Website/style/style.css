@@ -125,19 +125,52 @@ h1 {
 
 }
 
+.content {
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px gainsboro;
+
+}
+
+.align {
+    /* match page - style  */
+    text-align: center;
+}
+
+.flag-container {
+    /* match page - style  */
+    display: grid;
+    grid-template-columns: 1fr 30px 1fr;
+    align-items: center;
+    margin-top: 40px;
+    padding: 10px;
+
+}
+
+.flag {
+    /* match page - style  */
+    text-align: center;
+}
+
+.flag img {
+    /* match page - style  */
+    width: 100%;
+}
+
 .content-img {
     width: 100%;
 }
 
 .content-para {
     margin: 5px 0px;
+    padding: 0px 8px;
 }
 
 .content-info {
     display: flex;
     align-items: center;
     font-size: 15px;
-
+    padding: 0px 8px 8px 8px;
 }
 
 .content-comment {
